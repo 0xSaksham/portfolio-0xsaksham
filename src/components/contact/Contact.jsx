@@ -32,9 +32,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_p85jx8r",
-        "template_v10u2oh",
+        "template_vicgipp",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "ry48cB_j4q8j2PDrS"
       )
       .then(
         (result) => {

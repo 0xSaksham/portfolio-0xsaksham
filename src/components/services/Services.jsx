@@ -52,7 +52,9 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
             Business.
           </h1>
-          <button>WHAT I DO?</button>
+          <button>
+            <a href="#Services">WHAT I DO?</a>
+          </button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,35 +62,76 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Animated Landing Page</h2>
+          <h2>Frontend(React.js)</h2>
           <p>
             <ul>
-              <li>Technologies I use: React ,Vue ,Svelte & Angular</li>
               <li>
-                Beautiful Landing Pages with SASS ,TailwindCSS or Bootstrap
+                <motion.b>React Specialist:</motion.b> Expert in modular
+                components, API integration, and user-centric design.
               </li>
-              <li>Animated sites using Framer Motion</li>
+              <li>
+                <motion.b>API Integration Guru:</motion.b> Seamless integration
+                of RESTful APIs with a focus on robust testing.
+              </li>
+              <li>
+                <motion.b>UX Advocate:</motion.b> Prioritizing user experience
+                through clean, optimized code and intuitive design.
+              </li>
             </ul>
           </p>
-          <button>Get Yours NOW 🥳!</button>
+          <button>
+            <a href="#Contact">Get Yours NOW 🥳!</a>
+          </button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Full Stack Multi Page Website</h2>
+          <h2>Backend (Node.js and Express.js)</h2>
           <p>
             <ul>
-              <li>Most popular and scalable MERN Stack used.</li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                <motion.b>MERN API Developer:</motion.b> Express.js proficiency
+                with robust middleware.
               </li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                <motion.b>MongoDB Authentication:</motion.b> Specialized in
+                secure user authentication using JWT.
+              </li>
+              <li>
+                <motion.b>Documentation Pro:</motion.b> Emphasizes clear and
+                concise API documentation.
               </li>
             </ul>
           </p>
-          <button>Contact Me</button>
+          <button>
+            <a href="#Contact">Get Yours NOW 🥳!</a>
+          </button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Rust System Design</h2>
+          <p>
+            <ul>
+              <li>
+                <motion.b>Rust Systems Architect:</motion.b> Designs efficient,
+                concurrent systems for general-purpose applications.
+              </li>
+              <li>
+                <motion.b>Concurrency Expert:</motion.b> Maximizes performance
+                through Rust concurrent and parallel programming features.
+              </li>
+              <li>
+                <motion.b>Low-Level Specialist:</motion.b> Utilizes Rust control
+                for optimal, resource-efficient system design.
+              </li>
+            </ul>
+          </p>
+          <button>
+            <a href="#Contact">Get Yours NOW 🥳!</a>
+          </button>
         </motion.div>
       </motion.div>
     </motion.div>
