@@ -53,7 +53,7 @@ const Hero = () => {
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              <a href="https://drive.google.com/file/d/1jPoUm84bGhJhjblZuU0LEmclGtaR2iR1/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1xGBem30SgWtPRMIluoDCcrHtWo-h_pAc/view?usp=sharing">
                 Download Resume
               </a>
             </motion.button>
